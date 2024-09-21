@@ -28,9 +28,9 @@ LXGW Bright Code 的字重设置以 Monaspace Argon 为准，与 LXGW Bright（Y
 
 | Monaspace Argon | 霞鹜文楷 | LXGW Bright Code |
 | --------------- | -------- | ---------------- |
-| ExtraLight      | Light    | ExtraLight       |
-| Light           | Regular  | Light            |
-| Regular         | Bold     | Regular          |
+| ExtraLight      | Light    | **ExtraLight**   |
+| Light           | Regular  | **Light**        |
+| Regular         | Bold     | **Regular**      |
 
 ## 字体预览
 
