@@ -20,7 +20,7 @@ LXGW Bright Code 是由 [Monaspace Argon](https://github.com/githubnext/monaspac
 - **LXGW Bright Code GB**：采用 [霞鹜文楷 GB Lite](https://github.com/lxgw/LxgwWenkaiGB-Lite) 的陆标规范字形；
 - **LXGW Bright Code TC**：采用 [霞鹜文楷 TC](https://github.com/lxgw/LxgwWenkaiTC) 的传承字形。
 
-三种字形版本统一采用 **Monaspace Argon** 作为西文部分字体，利用 FontLab 将原始字体的字形宽度 1240 缩窄为 1000，实现西文宽度∶汉字宽度＝2∶1（FontCreator、FontForge 按比例压缩后宽度有误差）。
+三种字形版本统一采用 **Monaspace Argon** 作为西文部分字体，利用 FontLab 将原始字体的字形宽度 1240 缩窄为 1000，实现西文宽度∶汉字宽度＝1∶2（FontCreator、FontForge 按比例压缩后宽度有误差）。
 
 ### 字重对应情况
 
