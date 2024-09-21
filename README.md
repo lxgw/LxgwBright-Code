@@ -1,7 +1,7 @@
 >[!IMPORTANT]
 > - 本字体**不适用于**竖向排版。
 > - 本项目会在[霞鹜文楷系列字体](https://github.com/lxgw/LxgwWenKai) Release 更新后一周之内更新。
-> - 为便于 APP 嵌入，且又因为完整版文楷包含大量由 AI 生成的粗糙字形，不提供「完整版」。
+> - 为便于 APP 嵌入，且又因为完整版文楷包含大量由 AI 生成的粗糙字形，所以不提供「完整版」。
 
 # LXGW Bright Code
 
