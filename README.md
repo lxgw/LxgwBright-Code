@@ -34,7 +34,7 @@ LXGW Bright Code 的字重设置以 Monaspace Argon 为准，与 LXGW Bright（Y
 
 ## 字体预览
 
-![image](https://github.com/user-attachments/assets/752c0fba-e96a-461c-9745-03350f4c8f93)
+![image](https://github.com/user-attachments/assets/07652e36-53aa-49c6-8f8f-494ef6d7ac76)
 
 ## 获取字体
 
