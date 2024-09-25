@@ -56,6 +56,7 @@ LXGW Bright Code 的字重设置以 Monaspace Argon 为准，与 LXGW Bright（Y
 
 - 在制作衍生字体时，字体名称不可使用原有字体的「保留名称」。
 - 根据 [SIL Open Font License 1.1](https://openfontlicense.org) 的规定， **禁止单独出售字体文件(OTF/TTF文件)的行为。**
+- 该字体不得在 SIL OFL 1.1 以外的其他授权许可下发行。
 
 <!--
 ## Stargazers over time
