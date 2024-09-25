@@ -20,21 +20,21 @@ LXGW Bright Code 是由 [Monaspace Argon](https://github.com/githubnext/monaspac
 - **LXGW Bright Code GB**：采用 [霞鹜文楷 GB Lite](https://github.com/lxgw/LxgwWenkaiGB-Lite) 的陆标规范字形；
 - **LXGW Bright Code TC**：采用 [霞鹜文楷 TC](https://github.com/lxgw/LxgwWenkaiTC) 的传承字形。
 
-三种字形版本统一采用 **Monaspace Argon** 作为西文部分字体，利用 FontLab 将原始字体的字形宽度 1240 缩窄为 1000，实现西文宽度∶汉字宽度＝1∶2（FontCreator、FontForge 按比例压缩后宽度有误差）。
+三种字形版本统一采用 **Monaspace Argon** 作为西文部分字体，利用 FontLab 通过反向插值，将原始字体的字形宽度由 1240 缩窄为 1111，再将字形缩小到原来的 90%，实现西文宽度∶汉字宽度＝1∶2，同时大写字高与 Ysabeau 相近。
 
 ### 字重对应情况
 
 LXGW Bright Code 的字重设置以 Monaspace Argon 为准，与 LXGW Bright（Ysabeau Office）和「霞鹜文楷」不同。
 
-| Monaspace Argon | 霞鹜文楷 | LXGW Bright Code |
-| --------------- | -------- | ---------------- |
-| ExtraLight      | Light    | **ExtraLight**   |
-| Light           | Regular  | **Light**        |
-| Regular         | Bold     | **Regular**      |
+| Monaspace Argon | 霞鹜文楷、LXGW Bright | LXGW Bright Code |
+| --------------- | --------------------- | ---------------- |
+| ExtraLight      | Light                 | **ExtraLight**   |
+| Light           | Regular               | **Light**        |
+| Regular         | Medium                | **Regular**      |
 
 ## 字体预览
 
-![image](https://github.com/user-attachments/assets/752c0fba-e96a-461c-9745-03350f4c8f93)
+![image](images/screenshot.png)
 
 ## 获取字体
 
