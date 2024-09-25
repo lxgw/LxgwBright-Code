@@ -38,7 +38,7 @@ LXGW Bright Code 的字重设置以 Monaspace Argon 为准，与 LXGW Bright（Y
 
 ## 获取字体
 
-进入 [Releases](https://github.com/lxgw/LxgwBright-Code/releases) 界面下载。Release 版本号为 Monaspace Argon 与「霞鹜文楷」版本号的总和。
+进入 [Releases](https://github.com/lxgw/LxgwBright-Code/releases) 界面下载。一般情况下，Release 版本号为 Monaspace Argon 与「霞鹜文楷」版本号的总和。
 
 ## 字体授权
 
