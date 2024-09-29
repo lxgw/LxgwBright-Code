@@ -1,0 +1,38 @@
+name: Package fonts and upload to release
+
+on: 
+  release:
+    # do not run when created/draft, only when finalised
+    types: [published]
+
+jobs:
+  release:
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Zip LXGWBrightCode
+        uses: edgarrc/action-7z@v1
+        with:
+          args: 7z a -t7z -mx=9 LXGWBrightCode.7z LXGWBrightCode/*.ttf
+
+      - name: Zip LXGWBrightCodeGB
+        uses: edgarrc/action-7z@v1
+        with:
+          args: 7z a -t7z -mx=9 LXGWBrightCodeGB.7z LXGWBrightCodeGB/*.ttf
+
+      - name: Zip LXGWBrightCodeTC
+        uses: edgarrc/action-7z@v1
+        with:
+          args: 7z a -t7z -mx=9 LXGWBrightCodeTC.7z LXGWBrightCodeTC/*.ttf
+        
+      # upload files to releases
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file_glob: true
+          file: ./*.7z
+          tag: ${{ github.ref }}
+          overwrite: true
