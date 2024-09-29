@@ -15,17 +15,17 @@ jobs:
       - name: Zip LXGWBrightCode
         uses: edgarrc/action-7z@v1
         with:
-          args: 7z a -t7z -mx=9 LXGWBrightCode.7z LXGWBrightCode/*.ttf
+          args: 7z a -t7z -mx=9 LxgwBrightCode.7z LxgwBrightCode/*.ttf
 
       - name: Zip LXGWBrightCodeGB
         uses: edgarrc/action-7z@v1
         with:
-          args: 7z a -t7z -mx=9 LXGWBrightCodeGB.7z LXGWBrightCodeGB/*.ttf
+          args: 7z a -t7z -mx=9 LxgwBrightCodeGB.7z LxgwBrightCodeGB/*.ttf
 
       - name: Zip LXGWBrightCodeTC
         uses: edgarrc/action-7z@v1
         with:
-          args: 7z a -t7z -mx=9 LXGWBrightCodeTC.7z LXGWBrightCodeTC/*.ttf
+          args: 7z a -t7z -mx=9 LxgwBrightCodeTC.7z LxgwBrightCodeTC/*.ttf
         
       # upload files to releases
       - name: Upload binaries to release
