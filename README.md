@@ -1,6 +1,6 @@
 >[!IMPORTANT]
 > - 本字体**不适用于**竖向排版。
-> - 本项目会在[霞鹜文楷系列字体](https://github.com/lxgw/LxgwWenKai) Release 更新后一周之内更新。
+> - 本项目会在[霞鹜文楷系列字体](https://github.com/lxgw/LxgwWenKai) Release 更新后一个月之内更新。
 > - 为便于 APP 嵌入，且又因为完整版文楷包含大量由 AI 生成的粗糙字形，所以不提供「完整版」。
 
 # LXGW Bright Code
@@ -20,7 +20,7 @@ LXGW Bright Code 是由 [Monaspace Argon](https://github.com/githubnext/monaspac
 - **LXGW Bright Code GB**：采用 [霞鹜文楷 GB Lite](https://github.com/lxgw/LxgwWenkaiGB-Lite) 的陆标规范字形；
 - **LXGW Bright Code TC**：采用 [霞鹜文楷 TC](https://github.com/lxgw/LxgwWenkaiTC) 的传承字形。
 
-三种字形版本统一采用 **Monaspace Argon** 作为西文部分字体，利用 FontLab 通过反向插值，将原始字体的字形宽度由 1240 缩窄为 1111，再将字形缩小到原来的 90%，实现西文宽度∶汉字宽度＝1∶2，同时大写字高与 Ysabeau 相近。
+三种字形版本统一采用 **Monaspace Argon** 作为西文部分字体，利用 FontLab 通过 `wdth` 轴外推，将原始字体的字形宽度由 1240 缩窄为 1111，再将字形缩小到原来的 90%，实现西文宽度∶汉字宽度＝1∶2，同时大写字高与 Ysabeau 相近。
 
 ### 字重对应情况
 
