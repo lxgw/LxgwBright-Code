@@ -26,6 +26,21 @@ jobs:
         uses: edgarrc/action-7z@v1
         with:
           args: 7z a -t7z -mx=9 LxgwBrightCodeTC.7z LxgwBrightCodeTC/*.ttf
+
+      - name: Zip LXGWBrightCodeNF
+        uses: edgarrc/action-7z@v1
+        with:
+          args: 7z a -t7z -mx=9 LxgwBrightCodeNF.7z LxgwBrightCodeNF/*.ttf
+
+      - name: Zip LXGWBrightCodeNFGB
+        uses: edgarrc/action-7z@v1
+        with:
+          args: 7z a -t7z -mx=9 LxgwBrightCodeNFGB.7z LxgwBrightCodeNFGB/*.ttf
+
+      - name: Zip LXGWBrightCodeNFTC
+        uses: edgarrc/action-7z@v1
+        with:
+          args: 7z a -t7z -mx=9 LxgwBrightCodeNFTC.7z LxgwBrightCodeNFTC/*.ttf
         
       # upload files to releases
       - name: Upload binaries to release

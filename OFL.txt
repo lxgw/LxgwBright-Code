@@ -1,4 +1,4 @@
-Copyright 2024 LXGW (https://github.com/lxgw/LxgwBright)
+Copyright 2024-2026 LXGW (https://github.com/lxgw/LxgwBright)
 Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
 Copyright 2023 GitHub (https://github.com/githubnext/monaspace) with Reserved Font Name "Monaspace", including subfamilies: "Argon", "Neon", "Xenon", "Radon", and "Krypton"
 
