@@ -20,7 +20,9 @@ LXGW Bright Code 是由 [Monaspace Argon](https://github.com/githubnext/monaspac
 - **LXGW Bright Code GB**：采用 [霞鹜文楷 GB Lite](https://github.com/lxgw/LxgwWenkaiGB-Lite) 的陆标规范字形；
 - **LXGW Bright Code TC**：采用 [霞鹜文楷 TC](https://github.com/lxgw/LxgwWenkaiTC) 的传承字形。
 
-三种字形版本统一采用 **Monaspace Argon** 作为西文部分字体，利用 FontLab 通过 `wdth` 轴外推，将原始字体的字形宽度由 1240 缩窄为 1111，再将字形缩小到原来的 90%，实现西文宽度∶汉字宽度＝1∶2，同时大写字高与 Ysabeau 相近。
+三种字形版本统一采用 **Monaspace Argon** 作为西文部分字体，利用 FontLab 通过 `wdth` 轴外推，将原始字体的字形宽度由 1240 缩窄为 1111，再将字形缩小到原来的 90%，使得西文宽度∶汉字宽度＝1∶2，同时大写字高与 Ysabeau 相近。
+
+此外由于用户对 Nerd Font 的呼声同样较高，因此新增 NF 版，包含 Nerd Font 图标，可能随时取消，也可能直接取代此前不带 NF 图标的版本。
 
 ### 字重对应情况
 
@@ -55,7 +57,7 @@ LXGW Bright Code 的字重设置以 Monaspace Argon 为准，与 LXGW Bright（Y
 ### 限制
 
 - 在制作衍生字体时，字体名称不可使用原有字体的「保留名称」。
-- 根据 [SIL Open Font License 1.1](https://openfontlicense.org) 的规定， **禁止单独出售字体文件(OTF/TTF文件)的行为。**
+- 根据 [SIL Open Font License 1.1](https://openfontlicense.org) 的规定， **禁止单独出售字体文件（OTF/TTF 文件）的行为。**
 - 该字体不得在 SIL OFL 1.1 以外的其他授权许可下发行。
 
 <!--
