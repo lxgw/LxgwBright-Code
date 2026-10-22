@@ -40,7 +40,11 @@ LXGW Bright Code 的字重设置以 Monaspace Argon 为准，与 LXGW Bright（Y
 
 ## 获取字体
 
-进入 [Releases](https://github.com/lxgw/LxgwBright-Code/releases) 界面下载。一般情况下，Release 版本号为 Monaspace Argon 与「霞鹜文楷」版本号的总和。
+进入 [Releases](https://github.com/lxgw/LxgwBright-Code/releases) 界面下载。
+
+> [!NOTE]
+> - 早期版本，Release 版本号为 Ysabeau Office 与「霞鹜文楷」版本号的总和再加 2（由于「霞鹜文楷 GB」「霞鹜文楷 TC」与「霞鹜文楷 Lite」同期更新，故文楷 TC、GB 的版本号不再计入）。
+> - 自 2026 年 10 月 22 日起，字体版本号改为**「两位数年份＋小数点＋今年第几天」**的格式，如 2026 年 10 月 22 日发布的版本为 `v26.295`。
 
 ## 字体授权
 
